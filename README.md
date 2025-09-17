@@ -15,7 +15,7 @@ BANK: private dataset (commercial bank statements, not publicly available due to
 
 ## Usage⚙️
 1. We provide the required environment dependencies in requirements.txt.
-2. Configure your OpenAI client in main.py:
+2. Configure your OpenAI client and model name in main.py:
 ```Python
 client = OpenAI(
     api_key='YOUR_API_KEY',
